@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre HTML</title>
+  </head>
+  <body>
+    <h1>HTML</h1>
+    <h2>Linguagem de Marcação de HiperTexto</h2>
+    <h5>Escrito por: Rayane Sales</h5>
+    <hr />
+    <h3>Índice</h3>
+    <ol>
+      <li>
+        <a href="#introduction">Introdução</a>
+        <ol>
+          <li><a href="#example">Exemplos</a></li>
+        </ol>
+      </li>
+      <li><a href="#structure_of_elements">Estrutura dos Elementos</a></li>
+      <li><a href="#file_structure">Estrutura do Arquivo HTML</a></li>
+      <li><a href="#references">Referências</a></li>
+    </ol>
+    <hr />
+    <h3 id="introduction">Introdução</h3>
+    <p>
+      <i
+        >"<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup
+        <strong>L</strong>anguage"</i
+      >
+      Como diz o próprio nome, é uma Linguagem de Marcação de Hipertexto.
+      Hipertexto refere-se aos <i>links</i> que conectam páginas da Web entre
+      si. No momento em que você cria uma página e vincula esse conteúdo a
+      outros criados por terceiros, você se torna um participante ativo na
+      <strong>World Wide Web</strong>.
+    </p>
+    <p>
+      A Marcação se trata de elementos especiais que servem para anotar texto,
+      imagem e outros conteúdos para exebição em um navegador da Web.
+    </p>
+    <h4 id="example">São exemplos desses elemenntos:</h4>
+    <ul>
+      <li><code>&lt;h1&gt;</code></li>
+      <li><code>&lt;p&gt;</code></li>
+      <li><code>&lt;strong&gt;</code></li>
+      <li><code>&lt;i&gt;</code></li>
+      <li><code>&lt;ul&gt;</code></li>
+      <li><code>&lt;code&gt;</code></li>
+      <li><code>&lt;img&gt;</code></li>
+    </ul>
+    <hr />
+    <h3 id="structure_of_elements">Estrutura dos Elementos</h3>
+    <p>
+      Um elemento HTML é chamado de <i>"tags"</i>, que consite no nome do
+      elemento entre "&lt;" e "&gt;".
+    </p>
+    <h3 id="file_structure">Estrutura de um Arquivo HTML</h3>
+    <p>
+      As <i>tags</i> citadas anteriormente, são <i>tags</i> que ficam
+      localizadas dentro do "corpo" do HTML, para esclarecer, o arquivo HTML
+      possui uma estrutura base, composta por <i>tags</i> que constroem o
+      arquivo. Exemplos dessas <i>tags</i> são:
+    </p>
+    <ul>
+      <li><code>&lt;html&gt;</code></li>
+      <li><code>&lt;head&gt;</code></li>
+      <li><code>&lt;title&gt;</code></li>
+      <li><code>&lt;body&gt;</code></li>
+    </ul>
+    <p>
+      A <i>tag</i> <code>&lt;html&gt;</code> é a principal, ela delimita o HTML
+      dentro do arquivo. "Dentro" dessa <i>tag</i> temos:
+      <code>&lt;head&gt;</code> e <code>&lt;body&gt;</code>. Na <i>tag</i>
+      <code>&lt;head&gt;</code> é onde fica informações que queremos que seja
+      carregadas antes do conteúdo do HTML carregar, como por exemplo
+      <i>scripts</i> e estilização, também encontramos a <i>tag</i>
+      <code>&lt;title&gt;</code> que se refere ao título da página, como o nome
+      "Sobre HTML", encontrado na janela desta página. Finalmente a <i>tag</i>
+      <code>&lt;body&gt;</code> que é onde de fato fica o conteúdo da nossa
+      página. No final de tudo, temos a seguinte estrutura:
+    </p>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="pt-br"&gt;
+          &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;title&gt;Documento HTML5&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;!-- Conteúdo da página --&gt;
+          &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+    <blockquote>
+      <small
+        >"As <i>tags</i> não citadas se tratam de padrões do arquivo
+        HTML"</small
+      >
+    </blockquote>
+    <hr />
+    <h3 id="references">Referências</h3>
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">MDN Web Docs</a>
+  </body>
+</html>
